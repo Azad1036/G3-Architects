@@ -273,7 +273,7 @@ body {
     color: var(--text-black);
     font-size: 45px;
     font-weight: 700;
-    
+
 }
 
 .sponspors-h-subtitle {
@@ -296,6 +296,7 @@ body {
     border-radius: 8px;
     margin: 130px auto 210px auto;
 }
+
 .footer p {
     color: var(--text-primary);
     text-align: center;
@@ -387,6 +388,39 @@ body {
         left: -15px;
     }
 
-    
+    /* Some Fact Releted Style */
+    .our-work-container {
+        flex-direction: column;
+        gap: 15px;
+    }
 
+    .our-work {
+        padding: 20px 25px;
+    }
+
+    .facts p {
+        width: 500px;
+        margin: 15px 0px;
+    }
+
+    /* Sponspors releted style */
+    .sponspors-heading {
+        margin: 30px auto;
+        width: 500px;
+    }
+
+    .sponspors-h-subtitle {
+        margin-top: 15px;
+    }
+
+    .sponspors-company-images {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    /* Footer Releted Style */
+    .footer {
+        width: 95%;
+        margin: 50px auto 50px auto;
+    }
 }
