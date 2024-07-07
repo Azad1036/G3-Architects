@@ -213,8 +213,6 @@ body {
   position: absolute;
   bottom: 50px;
   left: -50px;
-
-  
 }
 
 .year10-exprience {
@@ -255,6 +253,55 @@ body {
         padding: 15px 20px;
         font-size: 16px;
     }
+    /* Team Releted Style */
+    .main {
+        width: 90%;
+    }
 
-    /* Responsive Header Releted Style Start */
+    .team-container{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .team-member-images {
+        gap: 10px;
+        margin-left: 0px;
+    }
+
+    .our-features {
+        width: 500px;
+        margin-right: 20px;
+    }
+
+    .our-features-title {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .our-features-subtitle {
+        margin-top: 15px;
+    }
+
+    /* Exprience Releted Style */
+    .experience-container {
+        gap: 50px;
+        flex-direction: column;
+        margin: 60px 0px;
+    }
+
+    .experience-text {
+        width: 500px;
+    }
+
+    .enjoy-section h1 {
+        font-size: 30px;
+    }
+
+    .year-of-experience {
+        width: 150px;
+        padding: 20px 25px;
+        bottom: -20px;
+        left: -15px;
+      }
+    
 }
