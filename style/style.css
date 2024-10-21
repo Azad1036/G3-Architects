@@ -11,19 +11,36 @@
 /* related style */
 :root {
     --primary-color: #131313;
-    --secondary-color:#424242;
+    --secondary-color: #424242;
+    --three-color: #727272;
 }
 
 .bg-primary {
     background: rgba(255, 144, 14, 0.10);
 }
 
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 24px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+/* navigation related style start */
 .navigation-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.brand-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .brand {
@@ -47,3 +64,30 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+/* navigation related style end */
+/* brand group related style start */
+.brand-group-container {
+    max-width: 862px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.brand-group {
+    color: var(--primary-color);
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 64px;
+}
+
+.brand-group-subtitle {
+    color: var(--three-color);
+    margin-bottom: 32px;
+}
+
+.banner-images {
+    width: 100%;
+    margin-bottom: 50px;
+}
+/* brand group related style end */
